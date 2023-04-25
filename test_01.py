@@ -50,3 +50,4 @@ def test_exception():
     with pytest.raises(ValueError) as e:
         raise_exception()
     assert "I am the exception" == str(e.value)
+#check the beeminder
